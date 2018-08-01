@@ -1,0 +1,17 @@
+{
+  "name": "practice-hbase",
+  "version": "1.0.0",
+  "description": "hbase CURD operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shar",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "hbase": "^0.4.0",
+    "hbase-client": "^1.6.1",
+    "node-gyp": "^3.7.0"
+  }
+}
