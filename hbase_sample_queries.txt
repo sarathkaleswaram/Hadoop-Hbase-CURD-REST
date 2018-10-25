@@ -8,6 +8,10 @@ get 'transactions', '81CD7129229866EFD87726CAF6404AF2BFF568E841E6930AE9F8E28145E
 
 deleteall 'transactions', '81CD7129229866EFD87726CAF6404AF2BFF568E841E6930AE9F8E28145E16ABC'
 
+disable_all '.*'
+drop_all '.*'
+truncate 'agg_metrics'
+
 count 'account_escrows'
 count 'account_exchanges'
 count 'account_offers'
